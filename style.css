@@ -7,6 +7,7 @@
 body {
     font-family: sans-serif;
     padding: 10rem;
+    background-color: blueviolet;
 }
 
 .main {
@@ -19,6 +20,8 @@ body {
 
 .nav{
     display: flex;
+    grid-template-columns: 50 50;
+    
 }
 
 .box2 {
@@ -27,6 +30,7 @@ body {
     border-bottom-left-radius: 1rem;
     padding-left: 2rem;
     color: white;
+    
 }
 
 .box3 {
@@ -58,7 +62,7 @@ li {
 p {
     padding-left: 2rem;
     color: slategrey;
-    padding-bottom: 2.5rem;
+    padding-bottom: 2rem;
 }
 
 .box2 h3,
