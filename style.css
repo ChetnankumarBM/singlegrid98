@@ -12,13 +12,18 @@ body {
 .main {
     background-color: peachpuff;
     border-radius: 1rem;
+    padding-top: 1rem;
 
+
+}
+
+.nav{
+    display: flex;
 }
 
 .box2 {
     background-color: rgb(161, 140, 199);
-    position: absolute;
-    top: 25rem;
+    
     border-bottom-left-radius: 1rem;
     padding-left: 2rem;
     color: white;
@@ -26,9 +31,7 @@ body {
 
 .box3 {
     background-color: rgb(117, 95, 214);
-    position: absolute;
-    top: 25rem;
-    left: 35rem;
+    
     border-bottom-right-radius: 1rem;
     padding-left: 2rem;
     color: white;
@@ -55,6 +58,7 @@ li {
 p {
     padding-left: 2rem;
     color: slategrey;
+    padding-bottom: 2.5rem;
 }
 
 .box2 h3,
